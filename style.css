@@ -5,3 +5,26 @@
 body{
     margin: 0px;
 }
+
+#container{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+}
+nav{
+    background-color: #666;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+nav ul{
+   
+} 
+
+nav li{
+    display: inline;
+}
+
+nav h1{
+    color: antiquewhite;
+}

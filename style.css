@@ -51,9 +51,18 @@ nav h1{
 }
 
 #imgback{
+    display: flex;
+    flex-direction: column;
     width: 100%;
     background-image: url('imgs/showcase.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-}
+    align-items: center;
+    }
+
+    .imgtext{
+        width: 400px;
+        text-align: center;
+    }
+

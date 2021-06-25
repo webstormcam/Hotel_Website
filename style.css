@@ -43,11 +43,15 @@ a:hover{
 }
 
 a:visited{
-    color: antiquewhite;
+    color: white;
+}
+
+a:hover{
+    color: orange;
 }
 
 nav h1{
-    color: antiquewhite;
+    color: white;
 }
 
 #imgback{
@@ -59,10 +63,40 @@ nav h1{
     background-size: cover;
     background-position: center;
     align-items: center;
+    justify-content: center;
+    height: 500px;
     }
 
     .imgtext{
-        width: 400px;
+        width: 100%;
         text-align: center;
+    }
+
+    .imgtext p{
+    color: white;
+    font-size: 18px;
+    }
+
+.enjoy{
+    color: white;
+}
+
+
+    .enjoy span{
+        color: orange;
+    }
+
+
+
+    .imgbutton{
+        background-color:rgb(49, 47, 47) ;
+        padding: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 5px;
+    }
+
+    .enjoy{
+        font-size: 50px;
     }
 

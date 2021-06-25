@@ -34,6 +34,7 @@ a{
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 30px;
+    color: #fff;
 
 }
 
@@ -129,18 +130,33 @@ nav h1{
 
     .wordcube p{
         color: white;
+        margin-bottom: 40px;
     }
 
     .orange{
         color: orange;
     }
 
-    .imgbutton2 {
+   .wordcube .imgbutton2 {
         background-color:#fff;
         padding: 10px;
         padding-left: 15px;
         padding-right: 15px;
         border-radius: 5px;
         color: black;
+        margin-top: 10px;
+    }
+
+    
+
+
+    @media screen and (min-width:1024px) {
+        .wordcube p{
+            
+            width: 450px;
+            margin: auto;
+            font-size: 19px;
+            margin-bottom: 40px;
+        }
     }
 

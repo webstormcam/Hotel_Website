@@ -124,13 +124,14 @@ nav h1{
 
     .wordcube h3{
         color: white;
-        margin-top: 40px;
+        margin-top: 83px;
         font-size: 22px;
     }
 
     .wordcube p{
         color: white;
         margin-bottom: 40px;
+        font-size: 19px;
     }
 
     .orange{
@@ -151,11 +152,12 @@ nav h1{
 
 
     @media screen and (min-width:1024px) {
+        
+        
+        
         .wordcube p{
-            
-            width: 450px;
+            width: 75%;
             margin: auto;
-            font-size: 19px;
             margin-bottom: 40px;
         }
     }

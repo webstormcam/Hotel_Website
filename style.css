@@ -163,6 +163,10 @@ nav h1{
 
       }
 
+      a{
+          padding: 30px  120px;
+      }
+
 
       #links{
         display: flex;
@@ -178,6 +182,8 @@ nav h1{
 .wordcube{
     width: auto;
 }
+
+
 
   }  
     

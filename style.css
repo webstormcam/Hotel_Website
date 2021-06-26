@@ -190,7 +190,7 @@ nav h1{
     }
 
 
-  @media screen and (max-width:588px){
+  @media screen and (max-width:600px){
       nav{
           flex-direction: column;
       }

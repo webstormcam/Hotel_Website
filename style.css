@@ -162,6 +162,15 @@ nav h1{
         flex-direction: column;
         width: 33.3%;
         text-align: center;
+        padding: 60px;
+    }
+
+    .column h3{
+        margin-top: 10px;
+    }
+
+    .middle{
+        background-color: rgb(233, 159, 23);
     }
 
 
@@ -204,6 +213,14 @@ nav h1{
 
 .wordcube{
     width: auto;
+}
+
+#threecolumn{
+    flex-direction: column;
+}
+
+.column{
+    width: 100%;
 }
 
 

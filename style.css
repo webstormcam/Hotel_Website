@@ -52,6 +52,11 @@ a:hover{
     color: orange;
 }
 
+.currentpage{
+    color: orange !important;
+    background-color:rgb(29, 25, 25) ;
+}
+
 nav h1{
     color: white;
 }

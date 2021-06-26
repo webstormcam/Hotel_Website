@@ -4,6 +4,7 @@
 
 body{
     margin: 0px;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
 #container{
@@ -121,6 +122,8 @@ nav h1{
         text-align: center;
         width: 500px;
         margin: auto;
+       
+        
       
     }
 
@@ -147,7 +150,10 @@ nav h1{
         padding-right: 15px;
         border-radius: 5px;
         color: black;
-        margin-top: 10px;
+        position: relative;
+        top: -15px;
+        
+       
         
     }
 
@@ -184,7 +190,7 @@ nav h1{
     }
 
 
-  @media screen and (max-width:515px){
+  @media screen and (max-width:588px){
       nav{
           flex-direction: column;
       }

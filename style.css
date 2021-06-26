@@ -151,6 +151,18 @@ nav h1{
         
     }
 
+    #threecolumn{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .column{
+        display: flex;
+        flex-direction: column;
+        width: 33.3%;
+    }
+
 
 
 

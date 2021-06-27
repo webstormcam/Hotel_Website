@@ -257,6 +257,8 @@ nav h1{
     padding: 20px;
    margin-bottom: 40px;
    margin-top: 30px;
+   border-radius: 20px;
+  
     
 }
 
@@ -318,9 +320,6 @@ input[type=submit]{
  border-radius: 20px;
 }
 
-.fa{
-    color: red !important;
-}
 
 
 
@@ -421,7 +420,7 @@ width: 100%;
     text-align: center;
     align-items: center;
     height: 300px;
-    padding-left: 20px;
+    padding-left: 0px;
   
    
 }

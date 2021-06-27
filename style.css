@@ -270,9 +270,13 @@ nav h1{
     
 }
 
-/* .textblock:nth-child(2){
-    margin-bottom: 200px;
-} */
+.textblock:nth-child(1){
+    margin-top: 150px;
+}
+
+.textblock:nth-child(2){
+    margin-bottom: 100px;
+}
 
 
 

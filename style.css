@@ -278,6 +278,18 @@ nav h1{
     margin-bottom: 100px;
 }
 
+.black{
+    background-color: black;
+    color: white;
+}
+
+
+#name, #email, #textarea{
+    width: 90%;
+}
+
+
+
 
 
 @media screen and (max-width:827px){
@@ -300,6 +312,15 @@ width: 100%;
     }
 }
 
+
+
+
+
+@media screen and (max-width:827px){
+    #twocolumn{
+        flex-direction: column;
+        text-align: center;
+    }
 
 
 

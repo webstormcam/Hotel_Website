@@ -162,7 +162,7 @@ nav h1{
         
     }
 
-    #threecolumn{
+    .threecolumn{
         display: flex;
         flex-direction: row;
         width: 100%;
@@ -336,7 +336,7 @@ width: 100%;
   width: auto;
 }
 
-#threecolumn{
+.threecolumn{
   flex-direction: column;
 }
 
